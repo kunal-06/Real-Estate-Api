@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet project\\Property_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|d:\\dotnet project\\property_api\\property_api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|solutionrelative:property_api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|d:\\dotnet project\\property_api\\property_api\\data\\dashboardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|solutionrelative:property_api\\data\\dashboardrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|d:\\dotnet project\\property_api\\property_api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|solutionrelative:property_api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|d:\\dotnet project\\property_api\\property_api\\data\\propertyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|solutionrelative:property_api\\data\\propertyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|d:\\dotnet project\\property_api\\property_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|solutionrelative:property_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|d:\\dotnet project\\property_api\\property_api\\model\\propertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|solutionrelative:property_api\\model\\propertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|d:\\dotnet project\\property_api\\property_api\\model\\property_img_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE5E56CE-2BEA-4CA6-A8A4-2EF9A1CE2278}|Property_API\\Property_API.csproj|solutionrelative:property_api\\model\\property_img_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Dotnet project\\Property_API\\Property_API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Property_API\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Dotnet project\\Property_API\\Property_API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Property_API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:38:12.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashBoardRepo.cs",
+              "DocumentMoniker": "D:\\Dotnet project\\Property_API\\Property_API\\Data\\DashBoardRepo.cs",
+              "RelativeDocumentMoniker": "Property_API\\Data\\DashBoardRepo.cs",
+              "ToolTip": "D:\\Dotnet project\\Property_API\\Property_API\\Data\\DashBoardRepo.cs",
+              "RelativeToolTip": "Property_API\\Data\\DashBoardRepo.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAIMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:36:43.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dotnet project\\Property_API\\Property_API\\Program.cs",
+              "RelativeDocumentMoniker": "Property_API\\Program.cs",
+              "ToolTip": "D:\\Dotnet project\\Property_API\\Property_API\\Program.cs",
+              "RelativeToolTip": "Property_API\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAE8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T05:49:00.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "D:\\Dotnet project\\Property_API\\Property_API\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Property_API\\Controllers\\PropertyController.cs",
+              "ToolTip": "D:\\Dotnet project\\Property_API\\Property_API\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "Property_API\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:34:55.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PropertyModel.cs",
+              "DocumentMoniker": "D:\\Dotnet project\\Property_API\\Property_API\\Model\\PropertyModel.cs",
+              "RelativeDocumentMoniker": "Property_API\\Model\\PropertyModel.cs",
+              "ToolTip": "D:\\Dotnet project\\Property_API\\Property_API\\Model\\PropertyModel.cs",
+              "RelativeToolTip": "Property_API\\Model\\PropertyModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:32:27.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Property_Img_Model.cs",
+              "DocumentMoniker": "D:\\Dotnet project\\Property_API\\Property_API\\Model\\Property_Img_Model.cs",
+              "RelativeDocumentMoniker": "Property_API\\Model\\Property_Img_Model.cs",
+              "ToolTip": "D:\\Dotnet project\\Property_API\\Property_API\\Model\\Property_Img_Model.cs",
+              "RelativeToolTip": "Property_API\\Model\\Property_Img_Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:32:23.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PropertyRepo.cs",
+              "DocumentMoniker": "D:\\Dotnet project\\Property_API\\Property_API\\Data\\PropertyRepo.cs",
+              "RelativeDocumentMoniker": "Property_API\\Data\\PropertyRepo.cs",
+              "ToolTip": "D:\\Dotnet project\\Property_API\\Property_API\\Data\\PropertyRepo.cs",
+              "RelativeToolTip": "Property_API\\Data\\PropertyRepo.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAL4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:30:48.376Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1079 @@
+[
+  {
+    "ContainingType": "Property_API.Controllers.CityController",
+    "Method": "getAll",
+    "RelativePath": "api/City",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CityController",
+    "Method": "InsertCity",
+    "RelativePath": "api/City",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityModel",
+        "Type": "Property_API.Model.CityModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CityController",
+    "Method": "getByID",
+    "RelativePath": "api/City/{CityID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CityID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CityController",
+    "Method": "deleteByID",
+    "RelativePath": "api/City/{CityID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CityID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CityController",
+    "Method": "UpdateCity",
+    "RelativePath": "api/City/{CityID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityModel",
+        "Type": "Property_API.Model.CityModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "CityID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CountryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CountryController",
+    "Method": "InsertCountry",
+    "RelativePath": "api/Country",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryModel",
+        "Type": "Property_API.Model.CountryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CountryController",
+    "Method": "getByID",
+    "RelativePath": "api/Country/{CountryID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CountryController",
+    "Method": "deleteByID",
+    "RelativePath": "api/Country/{CountryID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CountryController",
+    "Method": "UpdateCountry",
+    "RelativePath": "api/Country/{CountryID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryModel",
+        "Type": "Property_API.Model.CountryModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "CountryID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.DashboardController",
+    "Method": "GetStatestics",
+    "RelativePath": "api/Dashboard/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.DashboardController",
+    "Method": "MounthlyVisits",
+    "RelativePath": "api/Dashboard/MonthWiseVisite/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.DashboardController",
+    "Method": "GetPropertyByMount",
+    "RelativePath": "api/Dashboard/TotalPropertyCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.DashboardController",
+    "Method": "GetPropertyTypeCount",
+    "RelativePath": "api/Dashboard/TotalPropertyTypeCount/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.DashboardController",
+    "Method": "GetRentByMount",
+    "RelativePath": "api/Dashboard/TotalRent/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.DashboardController",
+    "Method": "GetVisiteCountByMonth",
+    "RelativePath": "api/Dashboard/VisiteCount/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "getAll",
+    "RelativePath": "api/Property",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "InsertCity",
+    "RelativePath": "api/Property",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyModel",
+        "Type": "Property_API.Model.PropertyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "getByID",
+    "RelativePath": "api/Property/{PropertyID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PropertyID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "deleteByID",
+    "RelativePath": "api/Property/{PropertyID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PropertyID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "UpdatePropertyWithImages",
+    "RelativePath": "api/Property/UpdatePropertyWithImages/{PropertyID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PropertyID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PropertyID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PropertyName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PropertyType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BadroomNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price_per_sqft",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarpetArea",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CityID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Latitude",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Longitude",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellerID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Listing_Date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "UploadProperty",
+    "RelativePath": "api/Property/UploadPropertyWithImages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PropertyID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PropertyName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PropertyType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BadroomNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price_per_sqft",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarpetArea",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CityID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Latitude",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Longitude",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "SellerID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Listing_Date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "getAllByUser",
+    "RelativePath": "api/Property/User/{userID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyImgController",
+    "Method": "getAllImages",
+    "RelativePath": "api/PropertyImg",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyImgController",
+    "Method": "deleteImage",
+    "RelativePath": "api/PropertyImg/{ImageID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyImgController",
+    "Method": "UpdateImage",
+    "RelativePath": "api/PropertyImg/{ImageID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyImgModel",
+        "Type": "Property_API.Model.Property_Img_Model",
+        "IsRequired": true
+      },
+      {
+        "Name": "ImageID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyImgController",
+    "Method": "GetImageByPropertyID",
+    "RelativePath": "api/PropertyImg/get-image/{propertyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyImgController",
+    "Method": "UploadProperty",
+    "RelativePath": "api/PropertyImg/UploadImages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ImageID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PropertyID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Created",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyImgController",
+    "Method": "getAllUserImages",
+    "RelativePath": "api/PropertyImg/User/{userID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.RequestController",
+    "Method": "GetAll",
+    "RelativePath": "api/Request",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.RequestController",
+    "Method": "InsertState",
+    "RelativePath": "api/Request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "Property_API.Model.RequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.RequestController",
+    "Method": "getByID",
+    "RelativePath": "api/Request/{RequestID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RequestID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.RequestController",
+    "Method": "deleteByID",
+    "RelativePath": "api/Request/{RequestID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RequestID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.RequestController",
+    "Method": "UpdateState",
+    "RelativePath": "api/Request/{RequestID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestModel",
+        "Type": "Property_API.Model.RequestModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "RequestID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.RequestController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Request/Status/{RequestID}/{Status}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RequestID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.RequestController",
+    "Method": "getByUserID",
+    "RelativePath": "api/Request/User/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.StateController",
+    "Method": "GetAll",
+    "RelativePath": "api/State",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.StateController",
+    "Method": "InsertState",
+    "RelativePath": "api/State",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stateModel",
+        "Type": "Property_API.Model.StateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.StateController",
+    "Method": "getByID",
+    "RelativePath": "api/State/{StateID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StateID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.StateController",
+    "Method": "deleteByID",
+    "RelativePath": "api/State/{StateID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StateID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.StateController",
+    "Method": "UpdateState",
+    "RelativePath": "api/State/{StateID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stateModel",
+        "Type": "Property_API.Model.StateModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "StateID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.UserController",
+    "Method": "getAll",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.UserController",
+    "Method": "InsertCity",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "Property_API.Model.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.UserController",
+    "Method": "getByID",
+    "RelativePath": "api/User/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.UserController",
+    "Method": "deleteByID",
+    "RelativePath": "api/User/{UserID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/{UserID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "Property_API.Model.UserModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLoginModel",
+        "Type": "Property_API.Model.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.VisitBookingController",
+    "Method": "GetAll",
+    "RelativePath": "api/VisitBooking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.VisitBookingController",
+    "Method": "InsertState",
+    "RelativePath": "api/VisitBooking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "visit_Booking_Model",
+        "Type": "Property_API.Model.Visit_Booking_Model",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.VisitBookingController",
+    "Method": "getByID",
+    "RelativePath": "api/VisitBooking/{BookingID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookingID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.VisitBookingController",
+    "Method": "deleteByID",
+    "RelativePath": "api/VisitBooking/{BookingID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookingID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.VisitBookingController",
+    "Method": "UpdateState",
+    "RelativePath": "api/VisitBooking/{BookingID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "visit_Booking_Model",
+        "Type": "Property_API.Model.Visit_Booking_Model",
+        "IsRequired": true
+      },
+      {
+        "Name": "BookingID",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.CityController",
+    "Method": "getByStateID",
+    "RelativePath": "CityByState/{StateID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StateID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "getCountByDate",
+    "RelativePath": "Properties/AddbyDayCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.PropertyController",
+    "Method": "getTopten",
+    "RelativePath": "Property/Topten/{UserID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.StateController",
+    "Method": "getbyCountryID",
+    "RelativePath": "StateByCountry/{CountryID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
