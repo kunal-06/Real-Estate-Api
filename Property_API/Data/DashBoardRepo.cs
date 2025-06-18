@@ -92,6 +92,29 @@ namespace Property_API.Data
                 conn.Close();
                 return user;
         }
+        public List<Object> MonthlyUserStetestic()
+        {
+            var user = new List<Object>();
+            SqlConnection conn = new SqlConnection(ConnectionString);
+            conn.Open();
+            Console.WriteLine("Connection successful!");
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "GetMonthlyUserAdded";
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                user.Add(new
+                {
+                    Month = Convert.ToString(reader["Month"]),
+                    TotalRent = Convert.ToString(reader["TotalRent"]),
+                });
+            }
+
+            reader.Close();
+            conn.Close();
+            return user;
+        }
         public List<Object> PropertyStetestic()
         {
             var user = new List<Object>();

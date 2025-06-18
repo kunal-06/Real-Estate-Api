@@ -71,3 +71,4 @@ D:\Dotnet project\Property_API\Property_API\bin\Debug\net8.0\FluentValidation.As
 D:\Dotnet project\Property_API\Property_API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Dotnet project\Property_API\Property_API\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\Dotnet project\Property_API\Property_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Dotnet project\Property_API\Property_API\obj\Debug\net8.0\Property_API.sourcelink.json

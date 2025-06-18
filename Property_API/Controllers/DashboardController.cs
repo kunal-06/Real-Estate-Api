@@ -26,7 +26,13 @@ namespace Property_API.Controllers
             var st = _dashBoardRepo.RentStetestic(UserID);
             return Ok(st);
         }
-        [HttpGet("TotalPropertyCount/")]
+        [HttpGet("MonthlyUserAdded")]
+        public ActionResult GetUserCountByMount(int UserID)
+        {
+            var st = _dashBoardRepo.MonthlyUserStetestic();
+            return Ok(st);
+        }
+        [HttpGet("TotalPropertyCount")]
         public ActionResult GetPropertyByMount(int UserID)
         {
             var st = _dashBoardRepo.PropertyStetestic();

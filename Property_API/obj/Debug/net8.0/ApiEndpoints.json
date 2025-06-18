@@ -175,6 +175,22 @@
   },
   {
     "ContainingType": "Property_API.Controllers.DashboardController",
+    "Method": "GetUserCountByMount",
+    "RelativePath": "api/Dashboard/MonthlyUserAdded",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Property_API.Controllers.DashboardController",
     "Method": "MounthlyVisits",
     "RelativePath": "api/Dashboard/MonthWiseVisite/{UserID}",
     "HttpMethod": "GET",

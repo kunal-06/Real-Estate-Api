@@ -18,7 +18,7 @@ namespace Property_API.Controllers
     [ApiController]
     public class PropertyImgController : ControllerBase
     {
-
+        
        
         public readonly PropertyImgRepo _propertyImgRepo;
         public readonly IWebHostEnvironment _environment;
